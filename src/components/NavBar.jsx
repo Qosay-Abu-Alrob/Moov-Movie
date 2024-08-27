@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMagnifyingGlass,faBell,faUser,faBars} from '@fortawesome/free-solid-svg-icons';
+import logo from '../assets/logo.png'
 function NavBar() {
     const [isMenuOpen, setMenuOpen] = useState(false);
     const toggleMenu = () => {
@@ -12,7 +13,7 @@ function NavBar() {
         <div className="flex items-center">
             <div className="flex py-8 px-10">
                 <FontAwesomeIcon className='flex mr-8 md:hidden text-primary size-6 cursor-pointer' onClick={toggleMenu} icon={faBars} />
-                <img  src="src\assets\logo.png" alt="logo" />
+                <img  src={logo} alt="logo" />
                 <p className="text-primary text-xl font-bold">OOV</p>
             </div>
             <nav>

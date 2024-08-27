@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 
 function MoviesCategory({ movies }) {
 return (
-    <div>
+    <div className='px-10'>
     {movies.length > 0 ? (
     <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 md:ml-36 md:gap-5 lg:ml-0 lg:grid-cols-6 gap-3 mt-10">
         {movies.map((movie) => (

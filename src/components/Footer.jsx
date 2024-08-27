@@ -1,3 +1,4 @@
+import logo from '../assets/logo.png'
 function Footer() {
     return ( 
         <>
@@ -5,7 +6,7 @@ function Footer() {
                 <div className=" px-10 grid grid-cols-12 gap-4">
                     <div className="col-span-12 md:col-span-8 sm:col-span-8">
                         <div className="flex">
-                            <img src="src/assets/logo.png" alt="logo"  />
+                            <img src={logo} alt="logo"  />
                             <p className="text-primary text-3xl font-bold">OOV</p>
                         </div>
                             <p className="mt-5 w-96">Discover a cinematic universe like no other with Moov, your ultimate destination for movie magic.</p>
