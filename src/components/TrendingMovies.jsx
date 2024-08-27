@@ -1,3 +1,6 @@
+import image1 from '../assets/Aladdin.png'
+
+
 function TrendingMovies() {
     return ( 
         <>
@@ -6,7 +9,7 @@ function TrendingMovies() {
                     <div className="mt-[-10rem] ">
                         <h2 className="text-primary text-2xl mb-5 ">Trending Movies</h2>
                         <div className="grid  grid-cols-2 sm:grid-cols-3 md:grid-cols-3 md:ml-36 md:gap-5 lg:ml-0 lg:grid-cols-6 gap-3 ">
-                            <img className="border rounded-lg h-[340px] w-[210] transition-transform duration-300 transform hover:scale-105" src="src\assets\Dinosaur.png" alt="" />
+                            <img className="border rounded-lg h-[340px] w-[210] transition-transform duration-300 transform hover:scale-105" src={image1} alt="" />
                             <img className="border rounded-lg h-[340px] w-[210] transition-transform duration-300 transform hover:scale-105" src="src\assets\Aladdin.png" alt="" />
                             <img className="border rounded-lg h-[340px] w-[210] transition-transform duration-300 transform hover:scale-105" src="src\assets\Raya.png" alt="" />
                             <img className="border rounded-lg h-[340px] w-[210] transition-transform duration-300 transform hover:scale-105" src="src\assets\Luca.png" alt="" />
