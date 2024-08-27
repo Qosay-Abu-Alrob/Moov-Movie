@@ -7,3 +7,6 @@
 .nav-bar-hover {
     @apply hover:text-dark hover:font-bold transition duration-300 ease-in-out;
 }
+body{
+    background-color: #121212;
+}
